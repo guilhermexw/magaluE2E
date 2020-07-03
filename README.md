@@ -1,5 +1,5 @@
 # magaluE2E
-Testes E2E - cucumber, capybara e ruby
+Testes E2E - utilizando cucumber, capybara e ruby
 
 ## Como executar o projeto
 
@@ -18,3 +18,4 @@ bundle install
 ### Para executar localmente 
 `
 bundle exec cucumber
+`
