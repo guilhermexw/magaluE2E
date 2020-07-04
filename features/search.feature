@@ -13,7 +13,7 @@ Funcionalidade: Realizar busca de produto
            
     Cenario: Buscar produto sem resultado encontrado
 
-        Dado que digito o item "Televisor Smart TV LED 43 modelo 2021" no campo da busca
+        Dado que digito o item "Televisor Smart TV LED 200" no campo da busca
         Quando eu clico no botão para realizar a busca
         Então vejo a mensagem: "Nenhum resultado encontrado para a consulta"
             E vejo a mensagem com a quantidade de: "resultados aproximados"
