@@ -1,9 +1,11 @@
 ---
-default: -p chrome -p json -p pretty
+default: -p dev_toolbox -p chrome -p json -p pretty
 ci: -p headless -p json -p pretty
+dev_toolbox: ENV_TYPE=dev_toolbox
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 headless: BROWSER=headless
+html: --format html --out=logs/report.html
 json: --format json --out=logs/report.json
 pretty: --format pretty
 progress: --format progress

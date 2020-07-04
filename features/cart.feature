@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Carrinho
+Funcionalidade: Carrinho de compras
     Sendo um visitante que escolheu um produto para compra no site
     Posso clicar no item
     Para que eu possa inclui-lo no carrinho de compras
