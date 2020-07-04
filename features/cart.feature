@@ -7,7 +7,7 @@ Funcionalidade: Carrinho de compras
 
     Cenario: Produto disponível no meu carrinho
 
-        Dado que escolhi o item "Televisor Smart TV LED 43” LG 43LM" na lista
+        Dado que escolhi o item "Televisor Smart TV LED 43 LG 43LM" na lista
         Quando eu adiciono ao meu carrinho de compras
         Então visualizo o produto e seu respectivo preço no carrinho 
 

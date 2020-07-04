@@ -29,7 +29,7 @@ Dado("que escolhi o item {string} na lista") do |product|
     Quando eu clico no botão para realizar a busca
   )
 
-  if product == 'Televisor Smart TV LED 43” LG 43LM' 
+  if product == 'Televisor Smart TV LED 43 LG 43LM' 
     find("#product_gkg76gc40f").click  
   else  
     find("#product_dj2a545g47").click
