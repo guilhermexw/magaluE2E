@@ -18,7 +18,7 @@ d = DateTime.now
 
 at_exit do
   ReportBuilder.configure do |config|
-    config.input_path = "logs/report.json"
+    config.input_path = "report.json"
     config.report_path = "logs/" + @current_date
     config.report_types = [:html]
     config.report_title = "Magalu - Execução cenários E2E"

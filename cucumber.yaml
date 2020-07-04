@@ -6,6 +6,6 @@ firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 headless: BROWSER=headless
 html: --format html --out=logs/report.html
-json: --format json --out=logs/report.json
+json: --format json --out=report.json
 pretty: --format pretty
 progress: --format progress
